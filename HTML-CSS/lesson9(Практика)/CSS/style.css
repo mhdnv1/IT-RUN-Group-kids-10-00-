@@ -1,0 +1,40 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-weight: inherit;
+    color: blue;
+}
+li{
+    background-color: blue;
+    padding: 20px;
+}
+img{
+    width: 100%;
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 30%;
+}
+.box img{
+    width: 100%;
+}

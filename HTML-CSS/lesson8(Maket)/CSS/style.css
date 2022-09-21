@@ -1,0 +1,27 @@
+.container{
+   width: 1140px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+    background-color: #058DBC;
+    border-right: 1px solid white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.backgraund{
+    height: 400px;
+    background-image: url(../img/1556708032_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,27 @@
+.boxs{
+    position: relative;
+}
+.red{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.green{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.blue{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}

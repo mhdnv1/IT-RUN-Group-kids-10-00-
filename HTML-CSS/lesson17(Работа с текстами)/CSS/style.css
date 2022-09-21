@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    transition: 6s;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: -1;
+    transition: 6s;
+}
+.wrapper > .sun{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    box-shadow: 8px 4px crimson;
+    border-radius: 50%;
+    transition: 6s;
+}
+.wrapper > .sun::after{
+    content: 'Ночь';
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 200px;
+    color: white;
+    transition: 6s;
+}
+.wrapper > .sun:hover{
+    background-color: yellow;
+    box-shadow:  0 0 0 0 yellow;
+    border-radius: 50%;
+}
+.sun:hover ~ .bg{
+    background: linear-gradient(-90deg , white , aqua);
+    transition: 6s;
+}
+.sun:hover ~ .bg::before{
+    content: 'День';
+    font-size: 200px;
+    color: yellow;
+    transition: 6s;
+}
+.sun:hover::after{
+    display: none;
+}
+
+
+/* Сделать 5 карточек: Название карточки(25 пикселей) -
+ должен иметь тень
+текст из 30 слов(18 пикселей) цвет красный при наведении 
+становится зеленым */

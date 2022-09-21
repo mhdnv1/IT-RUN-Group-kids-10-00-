@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.calc{
+    background: linear-gradient(red , blue);
+    padding: 50px;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+.num1 , .num2{
+    width: 100%;
+    padding: 20px 0 20px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+    background-color: gray;
+    color: white;
+}
+.operator_btns{
+    display: flex;
+    justify-content: space-between;
+}
+.operator_btns button{
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+.operator_btns button:hover , .count:hover{
+    background-color: white;
+    color: black;
+}
+.operator_btns button:active{
+    box-shadow: 2px 2px 12px 12px black;
+}
+.count{
+    font-size: 50px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+.result{
+    color: white;
+    font-size: 60px;
+}

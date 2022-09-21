@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            width: 200px;
+            height: 200px;
+            background-image: url(https://itproger.com/img/courses/1476977240.jpg);
+            background-position: center;
+            background-size: cover;
+            transition: .1s;
+            border: 5px solid black;
+        }
+        .item:hover{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid green;
+
+        }
+        .item:active .inner{
+            background-image: url(https://itproger.com/img/courses/1476977488.jpg);
+            background-position: center;
+            background-size: cover;
+            border: 5px solid red;
+            height: 200px;
+            width: 200px;
+        }
+        /* .item:active::before{
+           content: 'faha';
+           color: yellow;
+        }
+        .item:active::after{
+           content: 'zalkar';
+           color: blue;
+           text-align: end;
+        } */
+    </style>
+</head>
+<body>
+    <div class="item">
+        <div class="inner"></div>
+    </div>
+</body>
+</html>

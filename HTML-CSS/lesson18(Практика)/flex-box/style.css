@@ -1,0 +1,23 @@
+.boxs{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxs > div{
+    height: 200px;
+    width: 200px;
+}
+.circle{
+    background-color: red;
+    border-radius: 50%;
+}
+.sqouere{
+    background-color: blue;
+}
+.circle:nth-child(1){
+    background-color: green;
+}
+.sqouere:nth-child(2){
+    background-color: yellow;
+}
